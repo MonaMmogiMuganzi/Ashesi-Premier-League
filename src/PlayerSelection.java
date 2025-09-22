@@ -116,6 +116,14 @@ public class PlayerSelection {
 
         }
 
+        //determining whether a player is an attacker or not
+        if(jerseyNumber == 9 || jerseyNumber == 10 || jerseyNumber == 7 || jerseyNumber == 11) {
+            System.out.println("\nYou are an attacker");
+        }
+        else{
+            System.out.println("\nYou are not an attacker");
+        }
+
         //lineup decision
         if (age > 20 && age <= 30) {
 
