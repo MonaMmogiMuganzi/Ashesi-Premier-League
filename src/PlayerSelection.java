@@ -84,7 +84,7 @@ public class PlayerSelection {
         //assigning position if the jersey number is part of he numbers
         switch (jerseyNumber) {
             case 1:
-                System.out.println("\nPosition: Goalkeeper");
+                System.out.println("\nPosition: Goalkeeper.");
                 break;
 
             case 2:
